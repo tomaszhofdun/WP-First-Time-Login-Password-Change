@@ -1,0 +1,26 @@
+.ftlpc_reset_pass {
+  font-size: 21px;
+  &__requirements {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ftlpc_invalid {
+    color: red;
+  }
+
+  .ftlpc_valid {
+    color: green;
+  }
+
+  .ftlpc_invalid::before,
+  .ftlpc_valid::before {
+    padding-right: 10px;
+  }
+
+  .ftlpc_my_form input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
